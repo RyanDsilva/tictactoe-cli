@@ -1,0 +1,38 @@
+{
+  "name": "tictactoe-cli",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe, but in your terminal!",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "ttt": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanDsilva/tictactoe-cli.git"
+  },
+  "keywords": [
+    "game",
+    "cli",
+    "tictactoe"
+  ],
+  "author": "Ryan Dsilva <ryan.dsilva.98@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.29",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.2"
+  }
+}
