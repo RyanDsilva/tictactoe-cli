@@ -1,6 +1,6 @@
 {
   "name": "@ryan_dsilva/tictactoe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tic Tac Toe, but in your terminal!",
   "main": "dist/index.js",
   "type": "module",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanDsilva/tictactoe-cli.git"
+    "url": "git+https://github.com/RyanDsilva/tictactoe-cli.git"
   },
   "keywords": [
     "game",
