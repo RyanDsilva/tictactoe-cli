@@ -1,5 +1,5 @@
 {
-  "name": "tictactoe-cli",
+  "name": "@ryan_dsilva/tictactoe",
   "version": "1.0.0",
   "description": "Tic Tac Toe, but in your terminal!",
   "main": "dist/index.js",
